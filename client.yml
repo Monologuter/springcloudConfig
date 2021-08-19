@@ -9,9 +9,3 @@ spring:
       host: localhost
       discovery:
         service-name: ${spring.application.name}
-    config:
-      server:
-        git:
-          uri: https://github.com/Monologuter/springcloudconfig.git
-          basedir: /Users/macbookpro/soft/IdeaProjects/springcloud_parent/configServer/src/main/resources/localconfig
-          default-label: prod
